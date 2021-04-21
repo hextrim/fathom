@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.py[cod]
+logs/
+fathom/templates/src/
+fathom/templates/node_modules/
+fathom/templates/dist/
+fathom/fathom.db
+fathom/pinned_connection/PinnedConnectionClass.py

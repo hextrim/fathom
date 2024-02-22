@@ -23,7 +23,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 Mako==1.1.3
 MarkupSafe==1.1.1
-mpmath==1.1.0
+mpmath==1.3.0
 passlib==1.7.4
 pycparser==2.20
 python-dateutil==2.8.1
@@ -32,8 +32,9 @@ pytz==2020.1
 six==1.15.0
 speaklater==1.3
 SQLAlchemy==1.3.19
-sympy==1.6.2
+sympy==1.12
 Werkzeug==1.0.1
 WTForms==2.3.3
 zope.event==4.4
 zope.interface==5.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
